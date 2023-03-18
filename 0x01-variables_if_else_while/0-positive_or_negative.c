@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*these are standard input and output headers above*/
 
-/*main fumction - programs entry point */
+/*
+ *main fumction - programs entry point
+ *
+ *Return: 0 if successfull
+ */
 int main(void)
 {
 	int n;
@@ -14,7 +17,7 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
-	else 
+	else
 		printf("%d is zero\n", n);
 	return (0);
 }
