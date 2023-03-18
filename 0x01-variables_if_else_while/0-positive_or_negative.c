@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- *main fumction - programs entry point
+ *main - prints a random number
  *
  *Return: 0 if successfull
  */
