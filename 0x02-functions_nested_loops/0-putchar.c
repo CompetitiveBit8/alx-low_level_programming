@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: program entry point
+ *main - prints out _putchar
  *
- * Return: Always 0
+ *Return: Always 0
  */
-int maim(void)
+int main(void)
 {
 	putchar("_putchar");
 	return (0);
