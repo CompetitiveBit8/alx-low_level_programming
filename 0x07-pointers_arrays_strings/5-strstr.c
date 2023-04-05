@@ -7,7 +7,7 @@ char *_strstr(char *haystack, char *needle)
 
 	while(*haystach != '\0')
 	{
-		if(*haystack == ' ')
+		if(*haystack == *needle)
 			*var = *haystack +  1;
 	}
 	return(var);
