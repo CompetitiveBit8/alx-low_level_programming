@@ -5,10 +5,10 @@ char *_strstr(char *haystack, char *needle)
 	int i;
 	char *var;
 
-	while(*haystack != '\0')
+	if(*haystack != '\0')
 	{
 		if(*haystack == *needle)
-			*var = *haystack +  1;
+			*var = *haystack++;
 	}
 	return(var);
 }		
